@@ -1,0 +1,37 @@
+import java.util.Scanner;
+import java.util.HashMap;
+
+/**
+ *
+ * @author TOSHIBA
+ */
+public class Latian {
+
+    /**
+     * @param args the command line arguments
+     */
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+    String nama;
+    int no_rek;
+    
+    HashMap <String,Integer> data = new HashMap<String,Integer>();
+    data.put("asd" , 123);
+        System.out.println("yanga sudah ada"+data);
+    
+    
+    Scanner keyboard = new Scanner (System.in);
+    
+        System.out.println("___data baru____");
+        System.out.println("nama :");
+        nama = keyboard.nextLine();
+        
+        System.out.println("nomor rekening  :");
+        no_rek = keyboard.nextInt();
+        
+        System.out.println("nama = " +nama);
+        System.out.println("no rek =" +no_rek);
+    }
+    
+}
